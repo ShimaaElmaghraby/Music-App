@@ -1,0 +1,117 @@
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.cover h2{
+    margin-top:-480px; 
+    margin-left:35%;
+    margin-bottom: 430px; 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:70px;
+    font-weight:900;
+    color: beige;
+}
+
+@media only screen and (max-width: 760px){
+  body .cover h2{
+    margin-bottom: 50px;
+    margin-top:-75px; 
+    margin-left: 0px;
+    color: white;
+  }
+}
+
+.cover div h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:60px;
+    font-weight:800;
+    color: black;
+
+}  
+
+.artist div img{
+   margin-left: 150px;
+}
+
+.artist div button{
+    margin-left: 150px;
+    margin-top: -80px;
+    background-color: blanchedalmond;
+    border: none;
+    border-radius: 0px;
+ }
+
+ @media only screen and (max-width: 760px){
+  .artistList{
+    margin-right:170px;
+  }
+}
+
+
+.details h2{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size:70px;
+    font-weight:900;
+    font-style: italic;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    color: black;
+}
+
+.details h1{
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-size:55x;
+  font-weight:700;
+  margin-top: 20px;
+}
+.imageA {
+  width: 850px;
+  height: 600px;
+}
+
+@media only screen and (max-width: 760px){
+  .imageA{
+    width: 650px;
+    height: 400px;
+  }
+}
+.bio {
+  margin-left: 70px;
+  margin-right: 50px;
+  margin-bottom: 40px;
+}
+
+.albumImg{
+  margin-right:-173px ;
+}
+.album
+{
+  margin-left:280px;
+}
+
+@media only screen and (max-width: 760px){
+  .album{
+    margin-left: 120px;
+  }
+}
+
